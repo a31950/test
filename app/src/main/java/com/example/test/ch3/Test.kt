@@ -8,7 +8,13 @@ import java.util.*
 fun main(){
    data = 20
     println("data : $data")
-    var saydate = formatDate(Date())
+    var saydate :String = formatDate(Date())
     println(saydate)
     User().sayHello()
 }
+
+
+
+
+
+
