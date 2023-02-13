@@ -5,7 +5,7 @@ lateinit var data1 : String
 val data4 : Int by lazy {
     println("in main...........1")
     println("in main...........2")
-    11
+    10
 }
 
 
