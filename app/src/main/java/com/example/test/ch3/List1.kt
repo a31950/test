@@ -12,4 +12,8 @@ fun main(){
     println("list size : ${mutableList.size}")
     println("list size : ${mutableList[0]},${mutableList.get
         (1)},${mutableList.get(2)},${mutableList.get(3)}")
+    println("===================Map===================")
+    var map = mapOf<String,String>(Pair("one","hello"), "two" to "world")
+    println("map size : ${map.size}")
+    println("map size : ${map.get("one")},${map.get("two")}")
 }
