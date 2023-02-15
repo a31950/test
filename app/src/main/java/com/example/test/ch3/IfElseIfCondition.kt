@@ -34,7 +34,7 @@ fun main() {
     }
     println("Score: $score, Grade: $grade")
 
-    println("================조건문 반복문====================")
+    println("================조건문 반복문 (if ~ esle)====================")
     var data = 10
     var result = if(data > 0 ){
         println("data>0")
@@ -44,6 +44,25 @@ fun main() {
         false
     }
     println(result)
+    println("================조건문 반복문 (when)====================")
+
+        var data1 = 10
+        when(data1){
+            10 -> println("data is 10")
+            20 -> println("data is 20")
+            else -> {
+                println("data is not valid data")
+            }
+        }
+
+    var x = 2
+    when (x){
+        1 -> print("x == 1")
+        2 -> print("x == 2")
+        else -> print("x는 1 또는 2가 아닙니다.")
+    }
+
+
 
 
 
