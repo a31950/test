@@ -1,6 +1,7 @@
 package com.example.test.ch3
 
 fun main() {
+    println("================조건과 블록 함께 사용====================")
     val a = 12
     val b = 7
 
@@ -13,7 +14,7 @@ fun main() {
         b
     }
     println(max)
-
+    println("================범위 연산자====================")
     print("Enter the score: ")
     val score = readLine()!!.toDouble() // 콘솔로부터 입력 받음
     var grade: Char = 'F'
@@ -32,4 +33,19 @@ fun main() {
         grade = 'C'
     }
     println("Score: $score, Grade: $grade")
+
+    println("================조건문 반복문====================")
+    var data = 10
+    var result = if(data > 0 ){
+        println("data>0")
+        true
+    } else {
+        println("data <= 0")
+        false
+    }
+    println(result)
+
+
+
+
 }
