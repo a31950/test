@@ -1,6 +1,6 @@
 package com.example.test.ch3
 
-class Bird{
+class Bird0{
 
     var name : String = "mybird"
     var wing : Int = 2
@@ -12,9 +12,9 @@ class Bird{
 }
 
 fun main(){
-    val coco = Bird()
-    coco.color ="red"
-    println("coco.color : ${coco.color}")
-    coco.fly()
-    coco.sing(3)
+    val coco0 = Bird0()
+    coco0.color ="red"
+    println("coco0.color : ${coco0.color}")
+    coco0.fly()
+    coco0.sing(3)
 }
