@@ -10,6 +10,9 @@ fun <T> find(a:Array<T>, Target: T): Int {
 fun <T> add(a:T, b:T, op:(T,T) -> T) : T{
     return op(a,b)
 }
+fun <T> minus(a:T, b:T, op1:(T,T) -> T) : T{
+    return op1(a,b)
+}
 fun main(){
     val arr1 : Array<String> = arrayOf("애플","바나나","체리","두리안")
     val arr2 : Array<Int> = arrayOf(1,2,3,4)
@@ -20,5 +23,7 @@ fun main(){
 
     println("==========================================================")
     val result = add("2","3",{a, b -> a + b})
+    val result1 = minus(3,2,{a, b -> a - b})
     println(result)
+    println(result1)
 }
